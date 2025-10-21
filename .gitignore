@@ -1,7 +1,5 @@
 # Ignore WordPress core files (mounted from container)
-wordpress/
-
-!docker/wordpress/Dockerfile
+/wordpress/
 
 # Ignore plugin/theme folders if they're external repos
 # Uncomment if you're not tracking them here
