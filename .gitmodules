@@ -1,0 +1,3 @@
+[submodule "themes/ecoforge"]
+	path = themes/ecoforge
+	url = https://github.com/Jacques-Murray/wp-theme-ecoforge.git
