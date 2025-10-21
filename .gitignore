@@ -1,0 +1,40 @@
+# Ignore WordPress core files (mounted from container)
+wordpress/
+
+# Ignore plugin/theme folders if they're external repos
+# Uncomment if you're not tracking them here
+# plugins/
+# themes/
+
+# Docker volumes and logs
+db_data/
+xdebug_profiles/
+*.log
+
+# VS Code settings (optional)
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Node/npm artifacts (if used for tooling)
+node_modules/
+npm-debug.log*
+
+# Composer (if used)
+vendor/
+composer.lock
+
+# WP CLI cache
+.wp-cli/cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.tmp
+*.swp
