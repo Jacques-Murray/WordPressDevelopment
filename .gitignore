@@ -1,5 +1,5 @@
 # Ignore WordPress core files (mounted from container)
-wordpress/
+/wordpress/
 
 # Ignore plugin/theme folders if they're external repos
 # Uncomment if you're not tracking them here
@@ -10,9 +10,6 @@ wordpress/
 db_data/
 xdebug_profiles/
 *.log
-
-# VS Code settings (optional)
-.vscode/
 
 # OS-specific
 .DS_Store

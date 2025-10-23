@@ -1,0 +1,11 @@
+{
+  "php.validate.executablePath": "/usr/bin/php",
+  "intelephense.environment.includePaths": [
+    "wordpress/wp-includes",
+    "wordpress/wp-admin",
+  ],
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.php": "php"
+  }
+}

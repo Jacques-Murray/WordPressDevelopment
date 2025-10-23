@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Listen for Xdebug",
+      "type": "php",
+      "request": "launch",
+      "port": 9003,
+      "pathMappings": {
+        "/var/www/html": "${workspaceFolder}/wordpress",
+        "/var/www/html/wp-content/plugins": "${workspaceFolder}/plugins",
+        "/var/www/html/wp-content/themes": "${workspaceFolder}/themes"
+      }
+    },
+    {
+      "name": "Launch Firefox against WP",
+      "type": "firefox",
+      "request": "launch",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}/wordpress"
+    }
+  ]
+}
